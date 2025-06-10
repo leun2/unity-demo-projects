@@ -1,16 +1,18 @@
-# IDE Specific Files
-.idea/                 # JetBrains IDE (IntelliJ, Rider) configuration folder
-.vscode/               # VS Code configuration folder
-.vs/                   # Visual Studio configuration folder
-*.iml                  # JetBrains IDE module files
-*.suo                  # Visual Studio Solution User Options file
-*.user                 # Visual Studio user-specific settings
-*.userprefs            # User preferences files (often Unity related)
-workspace.xml          # JetBrains IDE workspace file
-.history/              # VS Code local history folder
-.gradle/               # Gradle cache/wrapper folder (for Android builds)
+# IDE Configuration and Cache Files
+# ----------------------------------------------------------------------------------------------------
+**/.idea/
+**/.vscode/
+**/.vs/
+**/*.iml
+**/*.suo
+**/*.user
+**/*.userprefs
+**/workspace.xml
+**/.history/
+**/.gradle/
 
-# Operating System Files
-.DS_Store              # macOS folder metadata
-Thumbs.db              # Windows thumbnail cache
-Desktop.ini            # Windows folder customization
+# Operating System Specific Files
+# ----------------------------------------------------------------------------------------------------
+**/.DS_Store
+**/Thumbs.db
+**/Desktop.ini
